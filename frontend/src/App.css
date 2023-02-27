@@ -25,6 +25,11 @@
 	margin-top: 2rem;
 }
 
+.settings-button {
+	text-align: center;
+	margin-top: 10px;
+}
+
 .video-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -47,4 +52,11 @@ body {
 		#8e54e9,
 		#4776e6
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.myVideo {
+	transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+	width: 300px;  
 }
